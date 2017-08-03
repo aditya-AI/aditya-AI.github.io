@@ -1,0 +1,38 @@
+{
+  "name": "felansu",
+  "version": "2.0.0",
+  "description": "felansu's blog",
+  "main": "",
+  "scripts": {
+    "build": "node build/purify-css.js && node build/build.js",
+    "dev": "node build/dev-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felansu/felansu.github.io.git"
+  },
+  "author": "Ferran Gonzalez Alonso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felansu/felansu.github.io/issues"
+  },
+  "homepage": "https://github.com/felansu/felansu.github.io#readme",
+  "dependencies": {
+    "animate.css": "v3.5.2",
+    "bootstrap": "v3.3.7",
+    "chart.js": "v2.6.0",
+    "colors": "v1.1.2",
+    "components-font-awesome": "v4.7.0",
+    "font-mfizz": "v2.3.0",
+    "jquery": "v3.2.1",
+    "jquery-slimscroll": "v1.3.8",
+    "normalize.css": "v7.0.0",
+    "purify-css": "v1.2.6",
+    "wowjs": "v1.1.2"
+  },
+  "devDependencies": {
+    "clean-css": "v4.1.7",
+    "shelljs": "v0.7.8",
+    "uglify-js": "v2.8.29"
+  }
+}

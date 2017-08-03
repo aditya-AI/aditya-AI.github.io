@@ -1,0 +1,60 @@
+{
+  "career":{
+    "my_career": "My Career",
+
+    "company_a": "Indra",
+    "company_a_desc": "Make solutions applying BigData concepts using Apache Zeppelin, Hive and Impala inside Cloudera.",
+    "company_a_date": "July 5, 2016 - December 25, 2017",
+    "company_a_job": "Full Stack Developer",
+    "company_a_skill": "cloudera hadoop spark angulajs javaee jax-rs spark",
+
+    "company_b": "Zero Glosa",
+    "company_b_desc": "Development of software to control billing between hospitals and covenants",
+    "company_b_date": "May 15, 2015 - January 25, 2016",
+    "company_b_job": "Angular & Grails Developer",
+    "company_b_skill": "grails angularjs kettle-etl sql karma-jasmine git",
+
+    "company_c": "Oobj",
+    "company_c_desc": "Make automation test for verify consistency of fiscal note.",
+    "company_c_date": "September 20, 2014 - April 17, 2015",
+    "company_c_job": "Automation Test Analyst",
+    "company_c_skill": "junit javaee jenkins svn sonar"
+  },
+  "thanks":{
+    "title": "Thanks for visit my site",
+    "view": "views"
+  },
+
+  "website":{
+    "title": "felansu's blog"
+  },
+  "nav":{
+    "home": "Home",
+    "about_me": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "career": "Career",
+    "blog": "Blog",
+    "link": "Link"
+  },
+  "about_me":{
+    "about_me": "About Me",
+    "des": "I am a Full Stack developer sharing everything i learn."
+  },
+  "skills":{
+    "my_skills": "My Skills"
+  },
+  "projects":{
+    "my_projects": "My Projects",
+    "saplatform": "Saplatform is a automated service for operations, it has asset management, project release, database access function, it can control mass servers.",
+    "jalpc": "Jalpc is a simple, beautiful and swift theme for Jekyll. It has comprehensive function, it can be easily used and edited. It's adapted for many kinds devices.",
+    "angularjs": "It is a web font application written by Angularjs and deployed by Jekyll on github (gh-pages), the backend platform is Leancloud, you can use Parse as well.",
+    "rsser": "Rsser is an Ionic application, with this application we can read news and articles freely, you can add rss address from the given list and add it manually.",
+    "leetcode": "LeetCode is a website which has many valuable algorithmic questions, this is a project of kamyu104's, I forked it and added more solutions, if you like Python you can find fun from this project.",
+    "familycode": "This is a shopping mall in wechat, it promotes gene detection. Since time is precious, I write this website with Django, jQuery, weui. This is WuxiNextcode's major product. You can scan project's picture by wechat."
+  },
+  "blog":{
+    "my_blog": "My Blog"
+  }
+
+}

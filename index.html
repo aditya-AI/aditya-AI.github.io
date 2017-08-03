@@ -1,0 +1,22 @@
+---
+layout: default
+title: index
+permalink: /
+---
+
+{% include navbar.html %}
+
+{% if site.index_carousel %}
+{% include carousel.html %}
+{% endif %}
+
+{% for section in site.data.landing %}
+{% assign loopindex = forloop.index | modulo: 2 %}
+<section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}">
+
+    {% if section.id != 'blog' %}
+    {% include sections/{{section.tpl}} %}
+    {% endif %}
+
+</section>
+{% endfor %}

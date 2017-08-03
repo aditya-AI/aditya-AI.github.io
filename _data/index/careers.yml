@@ -1,0 +1,38 @@
+# Indra
+- name:
+    i18n: company_a
+  desc:
+    i18n: company_a_desc
+  date:
+    i18n: company_a_date
+  job:
+    i18n: company_a_job
+  skill:
+    i18n: company_a_skill
+  icon: fa-plus-square
+
+# Zero Glosa
+- name:
+    i18n: company_b
+  desc:
+    i18n: company_b_desc
+  date:
+    i18n: company_b_date
+  job:
+    i18n: company_b_job
+  skill:
+    i18n: company_b_skill
+  icon: fa-plus-square
+
+# Oobj
+- name:
+    i18n: company_c
+  desc:
+    i18n: company_c_desc
+  date:
+    i18n: company_c_date
+  job:
+    i18n: company_c_job
+  skill:
+    i18n: company_c_skill
+  icon: fa-plus-square

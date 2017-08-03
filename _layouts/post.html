@@ -1,0 +1,44 @@
+---
+layout: blog
+---
+
+<div class="wrapper wrapper-content animated fadeIn article">
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="ibox">
+                <div class="ibox-content">
+
+                    <div class="text-center article-title">
+                        <span class="text-muted">
+                            <i class="fa fa-clock-o"></i> {{ page.date | date: "%-d %b %Y" }}</span>
+                        <h1>
+                            {{ page.title }}
+                        </h1>
+                        <div class="pull-rigth">
+                            {% for category in page.categories %}
+                            <span class="btn btn-white btn-xs">{{ category }}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {{ content }}
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-10 col-xs-4 col-xs-offset-8">
+                            <h5 style="display: inline;">Tags:</h5>
+                            {% for tag in page.tags %}
+                            <button class="btn btn-white btn-xs" type="button">{{ tag }}</button>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            {% include comments.html %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

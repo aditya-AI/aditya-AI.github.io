@@ -1,0 +1,23 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: felansu
+  i18n: felansu
+  gh_user: felansu
+  repo: indra-select
+  img: /static/assets/img/landing/jekyll.png
+  desc: Human resources system for assessment of candidates
+
+- name: Qr-Bibliokode
+  i18n: Qr-Bibliokode
+  gh_user: Qr-Bibliokode
+  repo: QRBWS
+  img: /static/assets/img/landing/leetcode.png
+  desc: Final course project
+
+- name: Next
+  i18n: Next
+  gh_user: felansu
+  repo: Next
+  img: /static/assets/img/landing/familycode.png
+  desc: Queue System for Service in Boxes
