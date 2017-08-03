@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OFERTA !</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+</head>
+<body>
+<div style="width: 700px; margin:0 auto; text-align: center;">
+    <h2><b>Interessados:</b> gaferran@gmail.com | (62)98180-6533</h2>
+    <p>Com exceção do ar condicionado (precisa de manutenção) tudo está em perfeitas condições.</p>
+</div>
+<div class="gallery-wrapper">
+    <ul>
+        <li>
+            <figure class="img-wrapper fade"><a class="fancybox" href="images/img1.jpg"><img src="thumbnails/img1.jpg">
+                <h4>Cadeira de plastico<br/>R$ 20<br/><br/></h4></a></figure>
+        </li>
+        <li>
+            <figure class="img-wrapper fade"><a class="fancybox" href="images/img5.jpg"><img src="thumbnails/img5.jpg">
+                <h4>Ar condicionado<br/> portatil<br/> R$ 600</h4></a></figure>
+        </li>
+
+        <li>
+            <figure class="img-wrapper fade"><a class="fancybox" href="images/img8.jpg"><img src="thumbnails/img8.jpg">
+                <h4>Fogão 6 bocas<br/>R$ 200<br/><br/></h4></a></figure>
+        </li>
+
+        <li>
+            <figure class="img-wrapper fade"><a class="fancybox" href="images/img9.jpg"><img src="thumbnails/img9.jpg">
+                <h4>Geladeira (aberta)<br/>R$ 200<br/><br/></h4></a></figure>
+        </li>
+        <br>
+        <li>
+            <figure class="img-wrapper fade"><a class="fancybox" href="images/img10.jpg"><img
+                    src="thumbnails/img10.jpg">
+                <h4>Geladeira (fechada)<br/>R$ 200<br/><br/></h4></a></figure>
+        </li>
+
+        <li>
+            <figure class="img-wrapper fade"><a class="fancybox" href="images/img11.jpg"><img
+                    src="thumbnails/img11.jpg">
+                <h4>Botijao de gas<br/>R$ 60<br/><br/></h4></a></figure>
+        </li>
+        <li>
+            <figure class="img-wrapper fade"><a class="fancybox" href="images/img14.jpg"><img
+                    src="thumbnails/img14.jpg">
+                <h4>Espelho<br/>R$ 20<br/><br/></h4></a></figure>
+        </li>
+        <li>
+            <figure class="img-wrapper fade"><a class="fancybox" href="images/img15.jpg"><img
+                    src="thumbnails/img15.jpg">
+                <h4>Violão<br/>R$ 200<br/><br/></h4></a></figure>
+        </li>
+        <li>
+            <figure class="img-wrapper fade"><a class="fancybox" href="images/img18.jpg"><img
+                    src="thumbnails/img18.jpg">
+                <h4>Mesa top<br/>R$ 80<br/><br/></h4></a></figure>
+        </li>
+        <li>
+            <figure class="img-wrapper fade"><a class="fancybox" href="images/img19.jpg"><img
+                    src="thumbnails/img19.jpg">
+                <h4>Estabilizador<br/>R$ 30<br/><br/></h4></a></figure>
+        </li>
+        <li>
+            <figure class="img-wrapper fade"><a class="fancybox" href="images/img20.jpg"><img
+                    src="thumbnails/img20.jpg">
+                <h4>TV 32' Panasonic<br/>R$ 700<br/><br/></h4></a></figure>
+        </li>
+        <li>
+            <figure class="img-wrapper fade"><a class="fancybox" href="images/img21.jpg"><img
+                    src="thumbnails/img21.jpg">
+                <h4>Reator Philips 250w<br/>R$ 70<br/><br/></h4></a></figure>
+        </li>
+        <li>
+            <figure class="img-wrapper fade"><a class="fancybox" href="images/img22.jpg"><img
+                    src="thumbnails/img22.jpg">
+                <h4>Lampada HQI e HQS<br/>R$ 70 cada<br/><br/></h4></a></figure>
+        </li>
+        <li>
+            <figure class="img-wrapper fade"><a class="fancybox" href="images/img2.jpg"><img src="thumbnails/img2.jpg">
+                <h4>Mesa + Cadeira<br/>R$ 50<br/><br/></h4></a></figure>
+        </li>
+
+        <li>
+            <figure class="img-wrapper fade"><a class="fancybox" href="images/img3.jpg"><img src="thumbnails/img3.jpg">
+                <h4>Mesa<br/>R$ 40<br/><br/></h4></a></figure>
+        </li>
+
+        <li>
+            <figure class="img-wrapper fade"><a class="fancybox" href="images/img7.jpg"><img src="thumbnails/img7.jpg">
+                <h4 style="font-size: 0.76em;">Lavadora Electrolux<br/>LTD09 8kg - R$ 800<br/><br/></h4></a></figure>
+        </li>
+
+    </ul>
+</div>
+
+</body>
+
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.min.js"></script>
+
+
+<script type="text/javascript">
+	$(function ($) {
+		var addToAll = false;
+		var gallery = true;
+		var titlePosition = 'inside';
+		$(addToAll ? 'img' : 'img.fancybox').each(function () {
+			var $this = $(this);
+			var title = $this.attr('title');
+			var src = $this.attr('data-big') || $this.attr('src');
+			var a = $('<a href="#" class="fancybox"></a>').attr('href', src).attr('title', title);
+			$this.wrap(a);
+		});
+		if (gallery)
+			$('a.fancybox').attr('rel', 'fancyboxgallery');
+		$('a.fancybox').fancybox({
+			titlePosition: titlePosition
+		});
+	});
+	$.noConflict();
+</script>
+
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+	h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+	(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+	{'GTM-PFTPV2Q':true});
+</script>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-87760997-1', 'auto');
+	ga('require', 'GTM-PFTPV2Q');
+	ga('send', 'pageview');
+</script>
+
+</html>
+
+
+

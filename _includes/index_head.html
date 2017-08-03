@@ -8,17 +8,14 @@
   <meta name="author" content="{{ site.author.name }}">
   <title>{{ site.title }}</title>
   <!-- favicon -->
-  <link rel="shortcut icon" href="{{ "/static/assets/img/favicon.ico" | prepend: site.baseurl }}">
+  <link rel="shortcut icon" href="{{ '/static/assets/img/favicon.ico' | prepend: site.baseurl }}">
 
   <!-- Main CSS -->
-  <link href="{{ "/static/assets/app-20170729.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+  <link href="{{ '/static/assets/app-20170728.min.css' | prepend: site.baseurl }}" rel="stylesheet">
 
   <!-- Main scripts -->
-  <script src="{{ "/static/assets/app-index-20170729.min.js" | prepend: site.baseurl }}"></script>
-  {% if site.data.index.projects %}
-  <script async defer src="{{ "/static/js/github_api.min.js" | prepend: site.baseurl }}"></script>
-  {% endif %}
+  <script src="{{ '/static/assets/app-index-20170728.min.js' | prepend: site.baseurl }}"></script>
   {% if site.data.index.language %}
-  <script src="{{"/static/assets/i18-20170729.min.js"| prepend: site.baseurl }}"></script>
+  <script src="{{' /static/assets/i18-20170728.min.js' | prepend: site.baseurl }}"></script>
   {% endif %}
 </head>

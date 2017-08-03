@@ -1,4 +1,15 @@
----
-layout: default
----
-    {{ content }}
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top" class="blog-page">
+
+{% include blog_header.html %}
+
+{{ content }}
+
+{% include foot.html %}
+
+</body>
+</html>

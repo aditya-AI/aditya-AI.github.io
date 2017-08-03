@@ -1,92 +1,92 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% if page.desc %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.desc %}
     <meta content="{{ page.desc }}" name="description">
-  {% endif %}
-  {% if page.keywords %}
-    <meta name="keywords" content="{{ page.keywords }}">
-  {% endif %}
-  <meta name="author" content="{{ site.author.name }}">
-
-  <title>
-    {% if page.title != "index" %}
-        {{ site.title }}|{{ page.title }}
-    {% else %}
-        {{ site.title }}
     {% endif %}
-  </title>
-  <!-- favicon -->
-  <link rel="shortcut icon" href="{{ "/static/assets/img/favicon.ico" | prepend: site.baseurl }}">
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}">
+    {% endif %}
+    <meta name="author" content="{{ site.author.name }}">
 
-  <!-- Main CSS -->
-  <link href="{{ "/static/assets/app-20170729.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <title>
+        {% if page.title != "index" %}
+        {{ site.title }}|{{ page.title }}
+        {% else %}
+        {{ site.title }}
+        {% endif %}
+    </title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="{{ '/static/assets/img/favicon.ico' | prepend: site.baseurl }}">
 
-  <!-- Main Scripts -->
-  <script src="{{"/static/assets/app-20170729.min.js"| prepend: site.baseurl }}"></script>
+    <!-- Main CSS -->
+    <link href="{{ '/static/assets/app-20170728.min.css' | prepend: site.baseurl }}" rel="stylesheet">
 
-  <script type="text/javascript">
-    $(document).ready(function () {
-      var initial = 0;
-      var show = true;
+    <!-- Main Scripts -->
+    <script src="{{ '/static/assets/app-20170728.min.js' | prepend: site.baseurl }}"></script>
 
-      var toggleSearch = function (visible) {
-        initial = 0;
-        show = !visible;
-        var visibility = visible ? 'block' : 'none';
+    <script type="text/javascript">
+		$(document).ready(function () {
+			var initial = 0;
+			var show = true;
 
-        $("#search-content").val("");
-        $(".search-tool").css("display", visibility);
-      };
+			var toggleSearch = function (visible) {
+				initial = 0;
+				show = !visible;
+				var visibility = visible ? 'block' : 'none';
 
-      var shouldToggle = function (time) {
-        var gap = time - initial;
-        initial = time;
-        return gap < 500;
-      };
+				$("#search-content").val("");
+				$(".search-tool").css("display", visibility);
+			};
 
-      $(document).keyup(function (e) {
-        var now = new Date().getTime();
-        if (e.keyCode == 17 && shouldToggle(now)) {
-          toggleSearch(show);
-        } else if (e.keyCode == 27) {
-          toggleSearch(false);
-        }
-      });
+			var shouldToggle = function (time) {
+				var gap = time - initial;
+				initial = time;
+				return gap < 500;
+			};
 
-      $("#search-content").keyup(function (e) {
-        var now = new Date().getTime();
-        if (e.keyCode == 17 && shouldToggle(now)) {
-          toggleSearch(show);
-        }
-      });
+			$(document).keyup(function (e) {
+				var now = new Date().getTime();
+				if (e.keyCode === 17 && shouldToggle(now)) {
+					toggleSearch(show);
+				} else if (e.keyCode === 27) {
+					toggleSearch(false);
+				}
+			});
 
-      $("#close-btn").click(function () {
-        toggleSearch(false);
-      });
+			$("#search-content").keyup(function (e) {
+				var now = new Date().getTime();
+				if (e.keyCode === 17 && shouldToggle(now)) {
+					toggleSearch(show);
+				}
+			});
 
-      $("#search-btn").click(function() {
-        toggleSearch(true);
-      });
+			$("#close-btn").click(function () {
+				toggleSearch(false);
+			});
 
-      $.getJSON("{{ "/search/cb-search.json" | prepend: site.baseurl }}")
-        .done(function (data) {
-          if (data.code == 0) {
-            $("#search-content").typeahead({
-              source: data.data,
-              displayText: function (item) {
-                return item.title;
-              },
-              afterSelect: function (item) {
-                window.location.href = item.url;
-              }
-            });
-          }
-        });
-    });
-    $(function(){
-        $("pre").css('display','block');
-    });
-  </script>
+			$("#search-btn").click(function () {
+				toggleSearch(true);
+			});
+
+			$.getJSON("{{ '/search/cb-search.json' | prepend: site.baseurl }}")
+				.done(function (data) {
+					if (data.code === 0) {
+						$("#search-content").typeahead({
+							source: data.data,
+							displayText: function (item) {
+								return item.title;
+							},
+							afterSelect: function (item) {
+								window.location.href = item.url;
+							}
+						});
+					}
+				});
+		});
+		$(function () {
+			$("pre").css('display', 'block');
+		});
+    </script>
 </head>
