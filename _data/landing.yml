@@ -4,7 +4,7 @@
   i18n: nav.about_me
   name: About
   tpl: about.html
-  css: about
+  css:
 
 - id: career
   i18n: nav.career
@@ -16,23 +16,23 @@
   i18n: nav.skills
   name: Skills
   tpl: skills.html
-  css: skills
+  css: team
 
 - id: projects
   i18n: nav.projects
   name: Projects
   tpl: projects.html
-  css: projects
+  css: project
 
 - id: blog
   i18n: nav.blog
-  name: blog
-  page: blog/
+  name: Blog
   tpl: blog.html
-  css: blog
+ # page: blog/
+  css: testimonials navy-section
 
-- id: thanks
-  i18n: nav.thanks
-  name: Thanks
-  tpl: thanks.html
-  css: thanks
+- id: links
+  i18n: nav.link
+  name: Links
+  tpl: links.html
+  css: contact
