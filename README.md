@@ -1,4 +1,4 @@
-# Felansu's blog forking Jalpc. [![Analytics](https://ga-beacon.appspot.com/UA-73784599-1/welcome-page)](https://github.com/jarrekk/Jalpc)
+# Jalpc. [![Analytics](https://ga-beacon.appspot.com/UA-73784599-1/welcome-page)](https://github.com/jarrekk/Jalpc)
 
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
@@ -6,7 +6,7 @@
 
 <https://jarrekk.github.io/Jalpc/>
 
-<http://www.jarrekk.com>  -- Personal website 
+<http://www.jarrekk.com>  -- Personal website
 
 ![Blog](https://github.com/jarrekk/Jalpc/raw/master/readme_files/Jalpc.png)
 
@@ -32,6 +32,7 @@
 - [Todo](#todo)
 - [Change Log](#change-log)
 - [Donate Jalpc](#donate-jalpc)
+- [Contributors](#contributors)
 - [Ad](#ad)
 
 This is a simple, beautiful and swift theme for Jekyll. It's mobile first, fluidly responsive, and delightfully lightweight.
@@ -206,6 +207,7 @@ There may be merge conflicts, so be sure to fix the files that git lists if they
 - [ ] `jekyll server --watch` mode need to use original CSS/JS files
 - [ ] User can customise index page's section title.
 - [ ] Non-github projects also have links.
+- [ ] Add some custom color themes for selection(Nav bar, background, words, dominant hue).
 
 # Change Log
 Please see [wiki](https://github.com/jarrekk/Jalpc/wiki/Change-Log)
@@ -215,5 +217,14 @@ If this project let you enjoy your blog time, you can give me a cup of coffee :)
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/jarrekk)
 
+# Contributors
+* [lucasschejtman](https://github.com/lucasschejtman)
+* [felansu](https://github.com/felansu)
+* [brianjking](https://github.com/brianjking)
+* [JonSn0w](https://github.com/JonSn0w)
+* [remimarenco](https://github.com/remimarenco)
+* [hjfzxc](https://github.com/hjfzxc)
+
 # Ad
 [Jalpc-A](https://github.com/Jack614/Jalpc-A): another Jekyll theme written by [AngularJS](https://angularjs.org/).
+

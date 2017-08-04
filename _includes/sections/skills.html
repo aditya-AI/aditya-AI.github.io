@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-12 text-center" id="i18_skills">
-            <br/>
+            <div class="navy-line"></div>
             <h1><span data-i18n="skills.my_skills">My Skills</span></h1>
         </div>
     </div>
@@ -22,25 +22,20 @@
                 pointBorderColor: "#fff",
                 pointHoverBackgroundColor: "#3385FF",
                 pointHoverBorderColor: "#3385FF",
-                data: [{{ site.data.index.skills.percentage }}]}]
-        }
-
-        new Chart(ctx, {
+                data: [{{ site.data.index.skills.percentage }}]
+                }]
+        };
+        var myRadarChart = new Chart(ctx, {
             type: 'radar',
             data: data,
             options: {
-	            elements: {
-	            	line: {
-			            tension: 0.1
-		            }
-	            },
                 scale: {
                     responsive: true,
-                    ticks: {display: false,min: 0, max: 100},
-                    lineArc: true,
-                    pointLabels: {fontSize: 14}
+                    ticks: {min: 0, max: 100},
+                    lineArc: false,
+                    pointLabels: {fontSize: 14},
                 },
-                legend: {display: false}
+                legend: {display: false},
             }
         });
         </script>
