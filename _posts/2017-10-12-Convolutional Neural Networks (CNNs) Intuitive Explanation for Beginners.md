@@ -23,11 +23,11 @@ So lets start....
 You might be thinking that why am I telling you about the applications of CNNs without even explaining about what it is. The reason is to motivate you all to work in this life changing field which has revolutionized the world and has had such a powerful impact.
 
 
-    1.CNNs are used by Google on Gmail for auto reply to the emails you receive. How it works is, CNNs goes through the whole email which you receive and suggests 3-4 best replies to you. They also use it for their photo search.
-    2.Facebook uses neural nets for their automatic tagging algorithms
-    3.Amazon for their product recommendations,
-    4.Pinterest for their home feed personalization
-    5.Instagram for their search infrastructure.
+1.CNNs are used by Google on Gmail for auto reply to the emails you receive. How it works is, CNNs goes through the whole email which you receive and suggests 3-4 best replies to you. They also use it for their photo search.
+2.Facebook uses neural nets for their automatic tagging algorithms
+3.Amazon for their product recommendations,
+4.Pinterest for their home feed personalization
+5.Instagram for their search infrastructure.
 
 ## **Introduction**
 
@@ -75,10 +75,10 @@ We use three main types of layers to build ConvNet architectures: **Convolutiona
 
 The image you see above is how CNN architecture actually looks like and I will explain you all in the same order starting from the Input till the Fully Connected layer.
 
-1.The input is nothing but an image, for now lets just say the input is a 32*32*3 array of pixel values.
-2.Now comes the first layer of CNN which is known as Convolutional Layer. CONV layer will compute the output of neurons that are connected to local regions in the input, each computing a dot product between their weights and a small region they are connected to in the input volume. This may result in volume such as [32*32*12] if we decided to use 12 filters. In order to understand Conv layer much better lets say that we have cell phone with a dimension of lets say 5*5 which covers the 5*5 area of a 32*32 image this cell phone in CNN is known as a **Filter** or sometimes as Neuron or Kernel and the region that it covers is called a **Receptive field**. This filter is also an array which consists of what we call is a Weight or Parameters (for all those who are not familiar with what weights are, for now lets assume they are just a set of randomly generated numbers in a 5*5 matrix). Now, let’s take the first position the filter is in for example.  It would be the top left corner. As the filter is sliding, or **convolving**, around the input image, it is multiplying the values in the filter with the original pixel values of the image (aka computing **element wise multiplications**). These multiplications are all summed up (mathematically speaking, this would be 75 multiplications in total). So now you have a single number. Remember, this number is just representative of when the filter is at the top left of the image. Now, we repeat this process for every location on the input volume. (Next step would be moving the filter to the right by 1 unit, then right again by 1, and so on). Every unique location on the input volume produces a number. After sliding the filter over all the locations, you will find out that what you’re left with is a 28 * 28 * 1 array of numbers, which we call an **activation map** or **feature map**. The reason you get a 28 * 28 array is that there are 784 different locations that a 5 x 5 filter can fit on a 32 * 32 input image. These 784 numbers are mapped to a 28 x 28 array.
+1.The input is nothing but an image, for now lets just say the input is a 32 x 32 x 3 array of pixel values.
+2.Now comes the first layer of CNN which is known as Convolutional Layer. CONV layer will compute the output of neurons that are connected to local regions in the input, each computing a dot product between their weights and a small region they are connected to in the input volume. This may result in volume such as [32 x 32 x 12] if we decided to use 12 filters. In order to understand Conv layer much better lets say that we have cell phone with a dimension of lets say 5*5 which covers the 5 x 5 area of a 32 x 32 image this cell phone in CNN is known as a **Filter** or sometimes as Neuron or Kernel and the region that it covers is called a **Receptive field**. This filter is also an array which consists of what we call is a Weight or Parameters (for all those who are not familiar with what weights are, for now lets assume they are just a set of randomly generated numbers in a 5 x 5 matrix). Now, let’s take the first position the filter is in for example.  It would be the top left corner. As the filter is sliding, or **convolving**, around the input image, it is multiplying the values in the filter with the original pixel values of the image (aka computing **element wise multiplications**). These multiplications are all summed up (mathematically speaking, this would be 75 multiplications in total). So now you have a single number. Remember, this number is just representative of when the filter is at the top left of the image. Now, we repeat this process for every location on the input volume. (Next step would be moving the filter to the right by 1 unit, then right again by 1, and so on). Every unique location on the input volume produces a number. After sliding the filter over all the locations, you will find out that what you’re left with is a 28 x 28 x 1 array of numbers, which we call an **activation map** or **feature map**. The reason you get a 28 x 28 array is that there are 784 different locations that a 5 x 5 filter can fit on a 32 x 32 input image. These 784 numbers are mapped to a 28 x 28 array.
 
-Let me show you with a formula how we derived a 32*32*3 array in to a 28*28*1:
+Let me show you with a formula how we derived a 32*32*3 array in to a 28 x 28 x 1:
 
 (N-F)/S + 1 = (32-5)/1 + 1 = 28
 
