@@ -49,11 +49,11 @@ cnn2.png
 
 We all can see that the image on the left is an image which has 3 puppies, green grass. But the computer understand that image as a matrix comprising of numbers where each value represents the pixel value on that image.
 
-To make your understanding much more clearer let me show you a Grey scale 14*14 image along with a 14*14 matrix.
+To make your understanding much more clearer let me show you a Grey scale 14 x 14 image along with a 14 x 14 matrix.
 
 cnn3
 
-As we can see that the 14*14 matrix has value zero in almost every column except in columns 7,8 and 9. This is because the image on left has 1 in the center and every where else it is blank. So the matrix has some values only at that place where we can see 1 in the image on the left. I hope that helps you in understanding how we represent an image in a computer format.
+As we can see that the 14 x 14 matrix has value zero in almost every column except in columns 7,8 and 9. This is because the image on left has 1 in the center and every where else it is blank. So the matrix has some values only at that place where we can see 1 in the image on the left. I hope that helps you in understanding how we represent an image in a computer format.
 
 ## **Inputs and Outputs**
 
