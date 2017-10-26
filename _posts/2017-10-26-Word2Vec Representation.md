@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Word2Vec Representation"
-date:   2017-01-31
+date:   2017-06-26
 desc: "Word2Vec Representation"
 keywords: "word2vec,deep learning, tensorflow"
 categories: [Deep Learning]
