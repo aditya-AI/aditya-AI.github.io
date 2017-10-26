@@ -13,7 +13,7 @@
   gh_user: aditya-AI
   repo: Deep-Learning
   img: /static/assets/img/landing/leetcode.png
-  desc: This project was forked, but explains each and every line of code in detail. All the codes are in tensorflow and uses mnist dataset. It's mostly for beginners who start their journey in Deep Learning.
+  desc: This project repository explains each and every line of code in detail. All the codes are in tensorflow and uses mnist dataset. It's mostly for beginners who start their journey in Deep Learning.
 
 - name: FamilyCODE Wchat
   i18n: familycode
