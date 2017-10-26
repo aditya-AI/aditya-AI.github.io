@@ -3,11 +3,11 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: Detecting Duplicate Images using Deep Learning
   i18n: jalpc
-  gh_user: jarrekk
-  repo: aditya-AI
+  gh_user: aditya-AI
+  repo: Detecting-Duplicate-Images-using-Deep-Learning
   img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
-
+  desc: Generated real-valued encodings for unlabelled images and compared images to detect duplicate images using L2 norm and KMeans clustering for optimization. I used a convolution auto-encoder.
+  
 - name: LeetCode
   i18n: leetcode
   gh_user: kamyu104
