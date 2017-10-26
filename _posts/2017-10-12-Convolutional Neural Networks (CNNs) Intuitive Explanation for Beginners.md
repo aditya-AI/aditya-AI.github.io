@@ -20,10 +20,10 @@ So lets start....
 
 ## **Applications of Convolutional Neural Networks**
 
-You might be thinking that why am I telling you about the applications of CNNs without even explaining about what it is. The reason is to motivate you all to work in this life changing field which has revolutionized the world and has had such a powerful impact.<br/>
+You might be thinking that why am I telling you about the applications of CNNs without even explaining about what it is. The reason is to motivate you all to work in this life changing field which has revolutionized the world and has had such a powerful impact.
 
 
-1.CNNs are used by Google on Gmail for auto reply to the emails you receive. How it works is, CNNs goes through the whole email which you receive and suggests 3-4 best replies to you. They also use it for their photo search.
+1.CNNs are used by Google on Gmail for auto reply to the emails you receive. How it works is, CNNs goes through the whole email which you receive and suggests 3-4 best replies to you. They also use it for their photo search.<br/>
 2.Facebook uses neural nets for their automatic tagging algorithms<br/>
 3.Amazon for their product recommendations<br/>
 4.Pinterest for their home feed personalization<br/>
