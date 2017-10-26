@@ -3,9 +3,9 @@ layout: post
 title:  "Word2Vec Representation"
 date:   2017-01-31
 desc: "Word2Vec Representation"
-keywords: "Jalpc,Jekyll,gh-pages,website,blog,easy"
-categories: [HTML]
-tags: [Jalpc,Jekyll]
+keywords: "word2vec,deep learning, tensorflow"
+categories: [Deep Learning]
+tags: [word2vec,tensorflow]
 icon: icon-html
 ---
 
