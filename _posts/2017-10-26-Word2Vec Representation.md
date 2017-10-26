@@ -1,5 +1,12 @@
 ---
-published: false
+layout: post
+title:  "Word2Vec Representation"
+date:   2017-01-31
+desc: "Word2Vec Representation"
+keywords: "Jalpc,Jekyll,gh-pages,website,blog,easy"
+categories: [HTML]
+tags: [Jalpc,Jekyll]
+icon: icon-html
 ---
 
 Hi Guys, off lately I have been reading a memoir written by J.D. Vance and it's about his own life, how even after so many family and cultural crisis he succeeded in fulfilling his Mammaw(grandmother) and his own dream of pursuing law from Yale University!
