@@ -11,7 +11,7 @@ icon: icon-html
 
 
 <!-- ![edit]({{ site.img_path }}/3steps/edit.gif) -->
-<img src="{{ site.img_path }}/3steps/word2vec0.gif" width="75%">
+<img src="{{ site.img_path }}/3steps/word2vec0.png" width="75%">
 
 Hi Guys, off lately I have been reading a memoir written by J.D. Vance and it's about his own life, how even after so many family and cultural crisis he succeeded in fulfilling his Mammaw(grandmother) and his own dream of pursuing law from Yale University!
 
@@ -24,7 +24,7 @@ I think the main reason for not getting better results at the first time was mai
 So, as I mentioned that my corpus was pretty small, so instead of using a number of features equal to 300, I reduced them though it's recommended that the more features you have your model is said to take more time to train, more computationally complex but yes it's more accurate. But guess what in my case the corpus was small so it was better if I would have reduced the vector size and it worked! I used a 250-dimensional vector for each word in my vocabulary list and I used a down-sampling of 1e-3. Let me show you a 250-dimensional vector representation of a word.
 
 <!-- ![edit]({{ site.img_path }}/3steps/edit.gif) -->
-<img src="{{ site.img_path }}/3steps/word2vec1.gif" width="75%">
+<img src="{{ site.img_path }}/3steps/word2vec1.png" width="75%">
 
 Unfortunately, it's difficult to show all 250 values of the word, but I think the above image gives you a lot of ideas how a word is represented in a vector form. I further squashed it down to a 2-dimensions consisting of points x and y to represent in a graphical form which can be visualized by humans.
 
