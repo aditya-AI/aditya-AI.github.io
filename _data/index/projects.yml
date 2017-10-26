@@ -20,4 +20,4 @@
   gh_user: aditya-AI
   repo: Detecting-True-and-Deceptive-Hotel-Reviews
   img: /static/assets/img/landing/familycode.png
-  desc: In this project I had a corpus of over 1500 true and deceptive hotel reviews. My model had to detect given a Review whether it is classified as a true or a deceptive review. I achieved an accuracy of around 86% with naive bayes classifier and 88%-89% accuracy with SVM on the training and test set. I used Parts of speech tagging as an input feature to my model. The predictions of my model were similar to the predictions made by the tool reviewskeptic.com/ which was developed by Cornell. Finally, I deployed my model using a back end similar to flask in python called Sanic 
+  desc: In this project my model had to detect given a review whether it is classified as a true or a deceptive review. I achieved an accuracy of around 86% with naive bayes classifier and 88%-89% accuracy with SVM on the training and test set. The predictions of my model were similar to the predictions made by the tool reviewskeptic.com/ which was developed by Cornell. Finally, I deployed my model using a back end similar to flask in python called Sanic 
