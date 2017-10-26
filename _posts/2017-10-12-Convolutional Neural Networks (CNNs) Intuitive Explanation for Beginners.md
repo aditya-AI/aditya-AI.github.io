@@ -78,7 +78,7 @@ The image you see above is how CNN architecture actually looks like and I will e
 1.The input is nothing but an image, for now lets just say the input is a 32 x 32 x 3 array of pixel values.
 2.Now comes the first layer of CNN which is known as Convolutional Layer. CONV layer will compute the output of neurons that are connected to local regions in the input, each computing a dot product between their weights and a small region they are connected to in the input volume. This may result in volume such as [32 x 32 x 12] if we decided to use 12 filters. In order to understand Conv layer much better lets say that we have cell phone with a dimension of lets say 5*5 which covers the 5 x 5 area of a 32 x 32 image this cell phone in CNN is known as a **Filter** or sometimes as Neuron or Kernel and the region that it covers is called a **Receptive field**. This filter is also an array which consists of what we call is a Weight or Parameters (for all those who are not familiar with what weights are, for now lets assume they are just a set of randomly generated numbers in a 5 x 5 matrix). Now, let’s take the first position the filter is in for example.  It would be the top left corner. As the filter is sliding, or **convolving**, around the input image, it is multiplying the values in the filter with the original pixel values of the image (aka computing **element wise multiplications**). These multiplications are all summed up (mathematically speaking, this would be 75 multiplications in total). So now you have a single number. Remember, this number is just representative of when the filter is at the top left of the image. Now, we repeat this process for every location on the input volume. (Next step would be moving the filter to the right by 1 unit, then right again by 1, and so on). Every unique location on the input volume produces a number. After sliding the filter over all the locations, you will find out that what you’re left with is a 28 x 28 x 1 array of numbers, which we call an **activation map** or **feature map**. The reason you get a 28 x 28 array is that there are 784 different locations that a 5 x 5 filter can fit on a 32 x 32 input image. These 784 numbers are mapped to a 28 x 28 array.
 
-Let me show you with a formula how we derived a 32*32*3 array in to a 28 x 28 x 1:
+Let me show you with a formula how we derived a 32 x 32 x 3 array in to a 28 x 28 x 1:
 
 (N-F)/S + 1 = (32-5)/1 + 1 = 28
 
@@ -88,11 +88,11 @@ F - Filter Size
 
 S - The number of strides. It basically denotes how are we sliding our filter, so in this case we are sliding it in an interval of 1.
 
-So as we can see we get 28 after subtraction, division and addition. And since we are sliding the filter once so we get an array of 28*28*1. If we would have used 12 filters instead of 1 we would have got an array of 28*28*12.
+So as we can see we get 28 after subtraction, division and addition. And since we are sliding the filter once so we get an array of 28 x 28 x 1. If we would have used 12 filters instead of 1 we would have got an array of 28 x 28 x 12.
 
 cnn6.png
 
-As I told you above that a filter will comprise of parameters or weights, but how do we know how many weights or parameters we require. Lets suppose we have an input image of 64*64*3 and a filter of 5*5*10, we need to find the number of parameters required which will be (5*5*3) * 10 = 750 parameters. Similarly, our new conv layer will be 60*60*10.
+As I told you above that a filter will comprise of parameters or weights, but how do we know how many weights or parameters we require. Lets suppose we have an input image of 64 x 64 x 3 and a filter of 5 x 5 x 10, we need to find the number of parameters required which will be (5 x 5 x 3) x 10 = 750 parameters. Similarly, our new conv layer will be 60 x 60 x 10.
 
 There is a lot to be covered in CNN, so I will cover the rest in my next blog, thanks for reading it. Hope you understood what I tried to explain. Please feel free to ask questions or any feedback you would want to give.
 
