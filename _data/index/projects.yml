@@ -6,7 +6,7 @@
   gh_user: aditya-AI
   repo: Detecting-Duplicate-Images-using-Deep-Learning
   img: /static/assets/img/landing/jekyll.png
-  desc: Generated real-valued encodings for unlabelled images and compared images to detect duplicate images using L2 norm and KMeans clustering for optimization. I used a convolution auto-encoder.
+  desc: In this project I generated real-valued encodings for unlabelled images and compared images to detect duplicate images using L2 norm and KMeans clustering for optimization. I used a convolution auto-encoder.
   
 - name: Deep Learning Repository
   i18n: leetcode
@@ -15,7 +15,9 @@
   img: /static/assets/img/landing/leetcode.png
   desc: This project repository explains each and every line of code in detail. All the codes are in tensorflow and uses mnist dataset. It's mostly for beginners who start their journey in Deep Learning.
 
-- name: FamilyCODE Wchat
+- name: Detecting True and Deceptive Hotel Reviews
   i18n: familycode
+  gh_user: aditya-AI
+  repo: Detecting-True-and-Deceptive-Hotel-Reviews
   img: /static/assets/img/landing/familycode.png
-  desc: This is a shopping mall in wechat, it promotes gene detection. Since time is precious, I write this website with Django, jQuery, weui. This is WuxiNextcode's major product. You can scan project's picture by wechat.
+  desc: In this project I had a corpus of over 1500 true and deceptive hotel reviews. My model had to detect given a Review whether it is classified as a true or a deceptive review. I achieved an accuracy of around 86% with naive bayes classifier and 88%-89% accuracy with SVM on the training and test set. I used Parts of speech tagging as an input feature to my model. The predictions of my model were similar to the predictions made by the tool reviewskeptic.com/ which was developed by Cornell. Finally, I deployed my model using a back end similar to flask in python called Sanic 
