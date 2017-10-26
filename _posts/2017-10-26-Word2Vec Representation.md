@@ -9,7 +9,7 @@ tags: [word2vec,tensorflow]
 icon: icon-html
 ---
 
-<img src="{{ site.img_path }}/3steps/word2vec0.png" width="75%">
+<img src="{{ site.img_path }}/3steps/word2vec0.gif" width="75%">
 
 Hi Guys, off lately I have been reading a memoir written by J.D. Vance and it's about his own life, how even after so many family and cultural crisis he succeeded in fulfilling his Mammaw(grandmother) and his own dream of pursuing law from Yale University!
 
