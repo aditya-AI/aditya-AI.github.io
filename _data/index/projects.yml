@@ -8,12 +8,12 @@
   img: /static/assets/img/landing/jekyll.png
   desc: Generated real-valued encodings for unlabelled images and compared images to detect duplicate images using L2 norm and KMeans clustering for optimization. I used a convolution auto-encoder.
   
-- name: LeetCode
+- name: Deep Learning Repository
   i18n: leetcode
-  gh_user: kamyu104
-  repo: LeetCode
+  gh_user: aditya-AI
+  repo: Deep-Learning
   img: /static/assets/img/landing/leetcode.png
-  desc: This project is other's project. I use another request to get repo's information.
+  desc: This project was forked, but explains each and every line of code in detail. All the codes are in tensorflow and uses mnist dataset. It's mostly for beginners who start their journey in Deep Learning.
 
 - name: FamilyCODE Wchat
   i18n: familycode
