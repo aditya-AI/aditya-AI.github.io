@@ -18,7 +18,7 @@ I have divided CNNs in to different parts as its a long topic to cover, and I wi
 
 So lets start....
 
-## Applications of Convolutional Neural Networks
+## **Applications of Convolutional Neural Networks**
 
 You might be thinking that why am I telling you about the applications of CNNs without even explaining about what it is. The reason is to motivate you all to work in this life changing field which has revolutionized the world and has had such a powerful impact.
 
@@ -55,15 +55,15 @@ cnn3
 
 As we can see that the 14*14 matrix has value zero in almost every column except in columns 7,8 and 9. This is because the image on left has 1 in the center and every where else it is blank. So the matrix has some values only at that place where we can see 1 in the image on the left. I hope that helps you in understanding how we represent an image in a computer format.
 
-## Inputs and Outputs
+## **Inputs and Outputs**
 
 When a computer sees an image (takes an image as input), it will see an array of pixel values. Depending on the resolution and size of the image, it will see a 32 x 32 x 3 array of numbers (The 3 refers to RGB values). Just to drive home the point, let's say we have a color image in JPG form and its size is 480 x 480. The representative array will be 480 x 480 x 3. Each of these numbers is given a value from 0 to 255 which describes the pixel intensity at that point. These numbers, while meaningless to us when we perform image classification, are the only inputs available to the computer.  The idea is that you give the computer this array of numbers and it will output numbers that describe the probability of the image being a certain class (.80 for cat, .15 for dog, .05 for bird, etc).
 
-## What We Want the Computer to Do
+## **What We Want the Computer to Do**
 
 Now that we know the problem as well as the inputs and outputs, let’s think about how to approach this. What we want the computer to do is to be able to differentiate between all the images it’s given and figure out the unique features that make a dog a dog or that make a cat a cat. This is the process that goes on in our minds subconsciously as well. When we look at a picture of a dog, we can classify it as such if the picture has identifiable features such as paws or 4 legs. In a similar way, the computer is able perform image classification by looking for low level features such as edges and curves, and then building up to more abstract concepts through a series of convolutional layers. This is a general overview of what a CNN does. Let’s get into the specifics.
 
-## Architecture of CNN
+## **Architecture of CNN**
 
 cnn4.png
 
