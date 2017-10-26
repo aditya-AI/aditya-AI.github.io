@@ -9,6 +9,8 @@ tags: [word2vec,tensorflow]
 icon: icon-html
 ---
 
+<img src="{{ site.img_path }}/3steps/word2vec0.png" width="75%">
+
 Hi Guys, off lately I have been reading a memoir written by J.D. Vance and it's about his own life, how even after so many family and cultural crisis he succeeded in fulfilling his Mammaw(grandmother) and his own dream of pursuing law from Yale University!
 
 So, that's not my topic of discussion today, it's related to Natural Language Processing. Now you guys would be wondering then why did I mention about that book. Well, I was reading that book and was parallelly studying about how to represent words in a form of vector and represent them in a 2-dimensional form, which shows us how words are related to each other in semantic and syntactic forms. So, I used this book as my corpus and converted the words into a vector form.
