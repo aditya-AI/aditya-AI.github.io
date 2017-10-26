@@ -38,6 +38,9 @@ Finally, let me show you the graphical representation of the words which will gi
 
 So here we go...
 
+<!-- ![edit]({{ site.img_path }}/3steps/edit.gif) -->
+<img src="{{ site.img_path }}/3steps/word2vec3.png" width="85%">
+
 
 If you zoom in a little you will notice that words like (he, she), (told, asked), (moved, walked, came) etc. are clustered together. This means these words are somewhat similar in context to each other. I have plotted the x coordinate from 4.0 to 8.0 and y coordinates from -5.0 to -0.1 so that means the above plot does not contain all 2900 words. I used TSNE to convert each 250 -dimensional vector into a 2-dimensional space, we can definitely use PCA as well.
 
