@@ -4,7 +4,7 @@
     detail: Icecream Labs
     i18n: company_a
   desc:
-    detail: I worked on analyzing data for neural networks, classifying of catalog data using deep neural networks and worked on image processing to extract features.
+    detail: I worked on analyzing data for neural networks, classifying of catalog data using deep neural networks and worked on image processing to extract features. Frameworks used Keras and Tensorflow.
     i18n: company_a_desc
   date:
     detail: August 2017 - October 2017
@@ -19,7 +19,7 @@
     detail: CRY - Child Rights and You
     i18n: company_b
   desc:
-    detail: I worked 
+    detail: I taught underprivileged children at a NGO “Cry India” for almost 7 months, where I taught Hindi, English, Physics and Mathematics to the Grade 9 and Grade 10 students.
     i18n: company_b_desc
   date:
     detail: August 2016 - December 2016
