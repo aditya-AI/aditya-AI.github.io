@@ -19,10 +19,10 @@
     detail: CRY - Child Rights and You
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: I worked 
     i18n: company_b_desc
   date:
-    detail: August 2016
+    detail: August 2016 - December 2016
     i18n: company_b_date
   job:
     detail: Voluteering
@@ -33,10 +33,10 @@
     detail: HCL Technologies
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: Verifying and troubleshooting alerts triggered from Cisco Call Managers,Unity connection, Cisco routers & Voice gateways. Configuring Cisco IP phones and features, CTI route point, Analog/Fax device, route patterns, calling search space, TOD, route filter, translation pattern, dial peer as per the customer needs.
     i18n: company_b_desc
   date:
-    detail: June 2015
+    detail: June 2015 - June 2016
     i18n: company_b_date
   job:
     detail: Analyst
