@@ -15,11 +15,6 @@ A patent was filed on this work by Head of my Institution in my college under th
 
 You can watch the video of this project on https://www.youtube.com/watch?v=3n5pk-NcFvk .
 
-Below are some of the mails I received by students after they watched the video of this project, I was contacted through email as well as facebook and helped them to best of my knowledge. I am also planning to open source this project with all the codes so that students can work on this and take this work to new heights. 
-
-project-mail
-
-project-mail-2
 
 **Future Scope**: I plan to combine this technology with Machine Learning/Artificial Intelligence so that the dustbin can take decision on its own without training it again and again and it can predict the values based on its use.
 
@@ -46,7 +41,8 @@ In this ultrasonic sensor and LCD are interfaced with microcontroller. The ultra
 
 Note: IDE is open source software used to program the Micro controller. The distance displayed on the serial monitor and on the LCD depicts the Real world.
 
-ultrasonic                                                Fig.1. Ultrasonic Sensor Flow Chart
+<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste4.png" width="50%"></div><br/>
+<div style="text-align:center">Fig.1. Ultrasonic Sensor Flow Chart</div>
 
 **Virtual World Scenario**:
 
