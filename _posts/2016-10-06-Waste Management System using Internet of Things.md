@@ -62,7 +62,7 @@ The databases required for this project were simplistic in nature, and posed no 
 
 The Entity Relationship diagrams for both these tables are as shown below.
 
-<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste6.png" width="50%"></div>
+<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste6.png" width="30%"></div>
 <div style="text-align:center"> Fig.3. Entity Relationship Diagram for value table</div><br/>
 
 
