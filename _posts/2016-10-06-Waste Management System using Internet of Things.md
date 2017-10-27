@@ -68,9 +68,11 @@ The Entity Relationship diagrams for both these tables are as shown below.
 
 Finally after getting the above results which will be shown in the Results section was able to get the final results by combining both the techniques. In the next part of my paper I will be showing certain flowcharts that depict the processing of micro controller with the actual component i.e. Ethernet shield for sending the data onto the server including the database flowcharts for storing the value and plotting them on the graph with an alert on the android application. It will also show the authentication done on the webpage.
 
-<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste7.png" width="50%"></div>  <div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste8.png" width="50%"></div>
-<div style="text-align:center">Fig.4. Sending Data to web server </div><br/>						<div style="text-align:center">Fig.5. Database Connection with the Server</div><br/>
+<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste7.png" width="30%"></div>
+<div style="text-align:center">Fig.4. Sending Data to web server </div><br/>
 
+<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste8.png" width="30%"></div>
+<div style="text-align:center">Fig.5. Database Connection with the Server</div><br/>
 
 <div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste9.png" width="50%"></div>
 <div style="text-align:center">Fig.6. User Authentication Flow Chart</div><br/>
@@ -90,7 +92,15 @@ A proper research was carried out in which it was found that there is an urgent 
 
 On the contrary results were carried out based on the above research done and successfully received following results which are shown below through few pictures consisting of a prototype of a Dustbin interfaced with a Micro controller, Ethernet Shield, Ultrasonic Sensor, jumping wires to connect everything together, graph and web page.
 
-final-4  Fig.8. User Authentication Page
+<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste11.png" width="50%"></div>
+<div style="text-align:center">Fig.9. User Authentication Page</div><br/>
+
+<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste12.png" width="50%"></div>
+<div style="text-align:center">Fig.10. Graph and Database</div><br/>
+
+<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste13.png" width="50%"></div>
+<div style="text-align:center">Fig.11. Complete picture displaying the whole procedure</div><br/>
+
 
 final-3Fig.8. Graph and Database
 
