@@ -41,7 +41,7 @@ In this ultrasonic sensor and LCD are interfaced with microcontroller. The ultra
 
 Note: IDE is open source software used to program the Micro controller. The distance displayed on the serial monitor and on the LCD depicts the Real world.
 
-<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste4.png" width="50%"></div><br/>
+<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste4.png" width="30%"></div><br/>
 <div style="text-align:center">Fig.1. Ultrasonic Sensor Flow Chart</div>
 
 **Virtual World Scenario**:
@@ -50,7 +50,7 @@ For displaying the distance in the virtual world I have used Visual Python which
 
 “A box which depicts an object in front of the ultrasonic sensor which moves as the distance from the sensor varies.”
 
-<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste5.png" width="50%"></div>
+<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste5.png" width="30%"></div>
 <div style="text-align:center">Fig.2. Sensor Values Input to Python Flowchart</div><br/>
 
 
@@ -93,13 +93,13 @@ A proper research was carried out in which it was found that there is an urgent 
 On the contrary results were carried out based on the above research done and successfully received following results which are shown below through few pictures consisting of a prototype of a Dustbin interfaced with a Micro controller, Ethernet Shield, Ultrasonic Sensor, jumping wires to connect everything together, graph and web page.
 
 <div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste11.png" width="50%"></div>
-<div style="text-align:center">Fig.9. User Authentication Page</div><br/>
+<div style="text-align:center">Fig.8. User Authentication Page</div><br/>
 
 <div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste12.png" width="50%"></div>
-<div style="text-align:center">Fig.10. Graph and Database</div><br/>
+<div style="text-align:center">Fig.9. Graph and Database</div><br/>
 
 <div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste13.png" width="50%"></div>
-<div style="text-align:center">Fig.11. Complete picture displaying the whole procedure</div><br/>
+<div style="text-align:center">Fig.10. Complete picture displaying the whole procedure</div><br/>
 
 
 final-3Fig.8. Graph and Database
