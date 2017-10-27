@@ -11,7 +11,7 @@ icon: icon-html
 
 This is in continuation to my last blog, this blog will give you more of a practical implementation about how this project was done. 
 
-A patent was filed on this work by Head of my Institution in my college under the name of Amity CRN no.1420, but unfortunately it did not get accepted as this technology was already patented somewhere else.
+A patent was filed on this work by Head of my Institution in my college under the name of Amity CRN no.1420.
 
 You can watch the video of this project on  <a href="  https://www.youtube.com/watch?v=3n5pk-NcFvk">Link</a>.
 
