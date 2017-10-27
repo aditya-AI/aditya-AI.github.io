@@ -50,8 +50,8 @@ For displaying the distance in the virtual world I have used Visual Python which
 
 “A box which depicts an object in front of the ultrasonic sensor which moves as the distance from the sensor varies.”
 
-<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste5.png" width="50%"></div><br/>
-<div style="text-align:center">Fig.2. Sensor Values Input to Python Flowchart</div>
+<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste5.png" width="50%"></div>
+<div style="text-align:center">Fig.2. Sensor Values Input to Python Flowchart</div><br/>
 
 
 **Database Design**
