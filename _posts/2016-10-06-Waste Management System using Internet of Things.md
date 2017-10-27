@@ -13,7 +13,7 @@ This is in continuation to my last blog, this blog will give you more of a pract
 
 A patent was filed on this work by Head of my Institution in my college under the name of Amity CRN no.1420.
 
-You can watch the video of this project on  <a href="  https://www.youtube.com/watch?v=3n5pk-NcFvk">Link</a>.
+You can watch the video of this project on  <a href="  https://www.youtube.com/watch?v=3n5pk-NcFvk" target="_blank">Link</a>.
 
 
 **Future Scope**: I plan to combine this technology with Machine Learning/Artificial Intelligence so that the dustbin can take decision on its own without training it again and again and it can predict the values based on its use.
