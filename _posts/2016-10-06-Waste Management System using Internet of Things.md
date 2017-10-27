@@ -58,29 +58,32 @@ For displaying the distance in the virtual world I have used Visual Python which
 
 The databases required for this project were simplistic in nature, and posed no design issues when designing it. I have used one database table in a single database. The table is:
 
-    Value – It stores the sensor’s information, which includes sensors value’s in centimeters, time at which the value is inserted into the table, date at which value is inserted in table for proper records which helps in making a graph.
+1.Value – It stores the sensor’s information, which includes sensors value’s in centimeters, time at which the value is inserted into the table, date at which value is inserted in table for proper records which helps in making a graph.
 
 The Entity Relationship diagrams for both these tables are as shown below.
 
-database
+<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste6.png" width="50%"></div>
+<div style="text-align:center"> Fig.3. Entity Relationship Diagram for value table</div><br/>
 
-                     Fig.3. Entity Relationship Diagram for value table
 
 Finally after getting the above results which will be shown in the Results section was able to get the final results by combining both the techniques. In the next part of my paper I will be showing certain flowcharts that depict the processing of micro controller with the actual component i.e. Ethernet shield for sending the data onto the server including the database flowcharts for storing the value and plotting them on the graph with an alert on the android application. It will also show the authentication done on the webpage.
 
-database-1db
+<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste7.png" width="50%"></div>  <div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste8.png" width="50%"></div>
+<div style="text-align:center">Fig.4. Sending Data to web server </div><br/>						<div style="text-align:center">Fig.5. Database Connection with the Server</div><br/>
 
-Fig.4. Sending Data to web server        Fig.5. Database Connection with the Server
 
-picture1
+<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste9.png" width="50%"></div>
+<div style="text-align:center">Fig.6. User Authentication Flow Chart</div><br/>
 
-                      Fig.6. User Authentication Flow Chart
+
 
 This authentication tool was designed keeping in consideration that the waste will be monitored by say a senior person so to avoid any discrepancy, this authentication will help in avoiding that as the person who knows the username and password will be able to access it.
 
-android.jpg
+<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste10.png" width="50%"></div>
+<div style="text-align:center">Fig.7. Android Application Flow Chart</div><br/>
 
-          Fig.7. Android Application Flow Chart
+
+          
 ## **RESULTS**
 
 A proper research was carried out in which it was found that there is an urgent requirement for this kind of tool which will really help a lot in managing the waste as it was found that the Dustbin are always filled more than its capacity. Moreover, the waste was found on the roads as well when there was no empty dustbin as there in no proper bin management.
