@@ -22,6 +22,7 @@ So lets start....
 
 You might be thinking that why am I telling you about the applications of CNNs without even explaining about what it is. The reason is to motivate you all to work in this life changing field which has revolutionized the world and has had such a powerful impact.
 
+<img src="{{ site.img_path }}/3steps/cnn1.png" width="85%">
 
 1.CNNs are used by Google on Gmail for auto reply to the emails you receive. How it works is, CNNs goes through the whole email which you receive and suggests 3-4 best replies to you. They also use it for their photo search.<br/>
 2.Facebook uses neural nets for their automatic tagging algorithms<br/>
@@ -39,19 +40,23 @@ I will start with what wikipedia has to say about CNNs before I give you my own 
 Convolutional neural networks. Sounds like a weird combination of biology and math with a little CS sprinkled in, but these networks have been some of the most influential innovations in the field of computer vision. 2012 was the first year that neural nets grew to prominence as Alex Krizhevsky used them to win that year’s ImageNet competition (basically, the annual Olympics of computer vision), dropping the classification error record from 26% to 15%, an astounding improvement at the time.
 
 But first, a little background. When you first heard of the term convolutional neural networks, you may have thought of something related to neuroscience or biology, and you would be right. Sort of. CNNs do take a biological inspiration from the visual cortex. The visual cortex has small regions of cells that are sensitive to specific regions of the visual field. This idea was expanded upon by a fascinating experiment by Hubel and Wiesel in 1962 [Video] where they showed that some individual neuronal cells in the brain responded (or fired) only in the presence of edges of a certain orientation. For example, some neurons fired when exposed to vertical edges and some when shown horizontal or diagonal edges. Hubel and Wiesel found out that all of these neurons were organized in a columnar architecture and that together, they were able to produce visual perception. This idea of specialized components inside of a system having specific tasks (the neuronal cells in the visual cortex looking for specific characteristics) is one that machines use as well, and is the basis behind CNNs.
-cnn1.png
+
+<img src="{{ site.img_path }}/3steps/cnn2.png" width="85%">
+
 
 This is how a Convolutional Neural Network Looks like, you have an input image which you pass through number of convolutional layers, use activation functions on it, you do max pooling and finally comes the fully connected layers which then adds the columns and outputs the final scores of each class.
 
 Please do not get stunned by looking at the above image and what I explained right after the image, I will explain it in much more detail later on. For now just understand the concept how humans see an image and how the computer understands it.
 
-cnn2.png
+<img src="{{ site.img_path }}/3steps/cnn3.png" width="85%">
+
 
 We all can see that the image on the left is an image which has 3 puppies, green grass. But the computer understand that image as a matrix comprising of numbers where each value represents the pixel value on that image.
 
 To make your understanding much more clearer let me show you a Grey scale 14 x 14 image along with a 14 x 14 matrix.
 
-cnn3
+<img src="{{ site.img_path }}/3steps/cnn4.png" width="85%">
+
 
 As we can see that the 14 x 14 matrix has value zero in almost every column except in columns 7,8 and 9. This is because the image on left has 1 in the center and every where else it is blank. So the matrix has some values only at that place where we can see 1 in the image on the left. I hope that helps you in understanding how we represent an image in a computer format.
 
@@ -65,11 +70,13 @@ Now that we know the problem as well as the inputs and outputs, let’s think ab
 
 ## **Architecture of CNN**
 
-cnn4.png
+<img src="{{ site.img_path }}/3steps/cnn5.png" width="85%">
+
 
 So now that I have given you enough perspective about CNNs, lets just dive deeper in to its architecture and know how it actually works. I have used this image to help you all understand CNN by picturising it in your mind as I explain you. There are lot of different images you might find on internet but I personally find this pretty intuitive in order to understand how it actually works.
 
-cnn5
+<img src="{{ site.img_path }}/3steps/cnn6.png" width="85%">
+
 
 We use three main types of layers to build ConvNet architectures: **Convolutional Layer**, **Pooling Layer**, and **Fully-Connected Layer** (exactly as seen in regular Neural Networks). We will stack these layers to form a full **ConvNet** architecture.
 
@@ -90,7 +97,8 @@ S - The number of strides. It basically denotes how are we sliding our filter, s
 
 So as we can see we get 28 after subtraction, division and addition. And since we are sliding the filter once so we get an array of 28 x 28 x 1. If we would have used 12 filters instead of 1 we would have got an array of 28 x 28 x 12.
 
-cnn6.png
+<img src="{{ site.img_path }}/3steps/cnn7.png" width="85%">
+
 
 As I told you above that a filter will comprise of parameters or weights, but how do we know how many weights or parameters we require. Lets suppose we have an input image of 64 x 64 x 3 and a filter of 5 x 5 x 10, we need to find the number of parameters required which will be (5 x 5 x 3) x 10 = 750 parameters. Similarly, our new conv layer will be 60 x 60 x 10.
 
