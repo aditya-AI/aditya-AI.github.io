@@ -27,10 +27,10 @@ The results of the survey points towards designing a system which can help in ma
 
 Arduino UNO Microcontroller is interfaced with Ultrasonic sensor and Ethernet/Wifi Shield, Arduino Uno is programmed such that as the sensor senses the data(Garbage) it is sent to the web server using the WiFi/Ethernet shield.
 
-1.WiFi shield connects the Arduino Uno Microcontroller to the Internet wirelessly in just mere minutes, it uses IEEE 802.11b/g network. It helps in sending the data to the web server by working in a client mode.
-2.Ultrasonic Sensor is a distance ranging sensor which senses the data(solid waste) based on height(cm). The range of this sensor is from 2cm-350cm approximately.
-3.Web Server stores the data which the microcontroller sends in every 10 secs of interval and stores those values in the database, further a graph is plotted using the values stored in the database. The graph is for monitoring purpose.
-4.Android Application receives an alert or notification when the dustbin is 90% filled with the garbage.
+1.WiFi shield connects the Arduino Uno Microcontroller to the Internet wirelessly in just mere minutes, it uses IEEE 802.11b/g network. It helps in sending the data to the web server by working in a client mode.<br/>
+2.Ultrasonic Sensor is a distance ranging sensor which senses the data(solid waste) based on height(cm). The range of this sensor is from 2cm-350cm approximately.<br/>
+3.Web Server stores the data which the microcontroller sends in every 10 secs of interval and stores those values in the database, further a graph is plotted using the values stored in the database. The graph is for monitoring purpose.<br/>
+4.Android Application receives an alert or notification when the dustbin is 90% filled with the garbage.<br/>
 
 To deal with these situations our prime focus should be Optimum utilisation of resources and keeping in concern with the Network Performance.
 
