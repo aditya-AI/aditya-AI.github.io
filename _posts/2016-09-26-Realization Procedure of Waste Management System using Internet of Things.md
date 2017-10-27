@@ -13,14 +13,14 @@ Most of the world's population today lives in cities. By 2030, the population of
 
 Internet of Everything (IoE) for cities which will connect people, data, process and things to improve the live-ability of the people.The main categories that define smart cities include the quality of the environment, energy, water and wastewater, waste management, transportation and traffic, information and communication systems, quality of life, government, economics, human resources, housing and land use, homeland security, and emergency preparedness.The main idea that revolves around this concept of smart city is Waste Management System Using Internet.The prime focus of this paper is on Waste Management System with two more categories that define a smart city is Autonomous Street Light System and Autonomous Irrigation System.Keeping our city clean is the major concern of today’s time and with more environmental issues coming up day by day, it seems there needs to be a change in the way things our going on and if no preventive measures are taken the situation can even become worst.
 
-<img src="{{ site.img_path }}/3steps/dustbin.png" width="85%">
+<img src="{{ site.img_path }}/3steps/dustbin.png" width="50%">
 
 
 This picture depicts the condition of the dustbin in one of the city of India. This picture was taken in April,2015 while surveying in one of the city of India and according to the survey reports it was found that most of the dustbins are not cleaned properly and the waste is not picked up the by garbage pickers at proper intervals. Also a survey was conducted in which the drivers reported that sometimes the dustbin is empty when they go to pick the garbage.
 
 The results of the survey points towards designing a system which can help in making the condition of city better and also making people's life much simpler and easier.
 
-**Conceptualised Plan of Waste Management System Using Internet
+**Conceptualised Plan of Waste Management System Using Internet**
 
 <img src="{{ site.img_path }}/3steps/waste1.png" width="85%">
 
@@ -34,7 +34,7 @@ Arduino UNO Microcontroller is interfaced with Ultrasonic sensor and Ethernet/Wi
 
 To deal with these situations our prime focus should be Optimum utilisation of resources and keeping in concern with the Network Performance.
 
-**REALIZATION PROCEDURES FOR A CONCEPTUALIZED SYSTEM
+**REALIZATION PROCEDURES FOR A CONCEPTUALIZED SYSTEM**
  
 <img src="{{ site.img_path }}/3steps/waste2.png" width="85%">
 
