@@ -41,7 +41,7 @@ In this ultrasonic sensor and LCD are interfaced with microcontroller. The ultra
 
 Note: IDE is open source software used to program the Micro controller. The distance displayed on the serial monitor and on the LCD depicts the Real world.
 
-<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste4.png" width="30%"></div><br/>
+<div style="text-align:center"><img src="{{ site.img_path }}/3steps/waste4.png" width="30%"></div>
 <div style="text-align:center">Fig.1. Ultrasonic Sensor Flow Chart</div>
 
 **Virtual World Scenario**:
