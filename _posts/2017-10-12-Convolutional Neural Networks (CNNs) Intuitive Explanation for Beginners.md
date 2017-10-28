@@ -4,6 +4,9 @@ title:  "Convolutional Neural Networks (CNNs) Intuitive Explanation for Beginner
 date:   2017-06-12
 desc: "Convolutional Neural Networks (CNNs) Intuitive Explanation for Beginners"
 keywords: "cnn,deep learning, tensorflow"
+categories:
+tags: 
+icon: icon-html
 ---
 
 
