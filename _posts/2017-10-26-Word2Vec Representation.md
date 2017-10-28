@@ -4,8 +4,8 @@ title:  "Word2Vec Representation"
 date:   2017-06-26
 desc: "Word2Vec Representation"
 keywords: "word2vec,deep learning, tensorflow"
-categories: [Deep Learning]
-tags: [word2vec,tensorflow]
+categories:
+tags: 
 icon: icon-html
 ---
 
