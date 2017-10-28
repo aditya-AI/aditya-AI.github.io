@@ -15,7 +15,7 @@ author:  # change following line to your infomation.
   first_name: Aditya  # Be used at index page about me section.
   last_name: Sharma  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
-  github_username: adityaAI  # Leave blank if you don't have now
+  github_username: aditya-AI  # Leave blank if you don't have now
   linkedin_id: adityasharma101993 # Leave blank if you don't have now
   facebook_username: aditya101993  # Leave blank if you don't have now
   twitter_username:   # Leave blank if you don't have now
