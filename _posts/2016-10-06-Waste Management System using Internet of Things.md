@@ -3,7 +3,7 @@ layout: post
 title:  "Waste Management System using Internet of Things for Smart Cities"
 date:   2016-10-06
 desc: "Waste Management System using Internet of Things for Smart Cities"
-keywords: "word2vec,deep learning, tensorflow"
+keywords: "iot"
 categories:
 tags: 
 icon: icon-html

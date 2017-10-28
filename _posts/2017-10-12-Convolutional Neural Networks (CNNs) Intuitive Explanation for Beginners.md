@@ -3,7 +3,7 @@ layout: post
 title:  "Convolutional Neural Networks (CNNs) Intuitive Explanation for Beginners"
 date:   2017-06-12
 desc: "Convolutional Neural Networks (CNNs) Intuitive Explanation for Beginners"
-keywords: "word2vec,deep learning, tensorflow"
+keywords: "cnn,deep learning, tensorflow"
 ---
 
 

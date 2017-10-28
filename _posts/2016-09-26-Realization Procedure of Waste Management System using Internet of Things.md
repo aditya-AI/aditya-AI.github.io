@@ -3,9 +3,9 @@ layout: post
 title:  "Realization Procedure of Waste Management System using Internet of Things"
 date:   2016-09-27
 desc: "Realization Procedure of Waste Management System using Internet of Things"
-keywords: "word2vec,deep learning, tensorflow"
-categories: [Deep Learning]
-tags: [word2vec,tensorflow]
+keywords: "iot, smart city"
+categories:
+tags: 
 icon: icon-html
 ---
 
