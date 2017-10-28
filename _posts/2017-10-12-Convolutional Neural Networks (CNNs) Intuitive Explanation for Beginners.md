@@ -4,8 +4,6 @@ title:  "Convolutional Neural Networks (CNNs) Intuitive Explanation for Beginner
 date:   2017-06-12
 desc: "Convolutional Neural Networks (CNNs) Intuitive Explanation for Beginners"
 keywords: "word2vec,deep learning, tensorflow"
-categories: [Deep Learning]
-tags: [word2vec,tensorflow]
 icon: icon-html
 ---
 
