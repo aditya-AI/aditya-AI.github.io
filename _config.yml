@@ -11,14 +11,14 @@ img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: GitHub  # Be used at blog posts' author.
+  name: Aditya  # Be used at blog posts' author.
   first_name: Aditya  # Be used at index page about me section.
   last_name: Sharma  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: adityaAI  # Leave blank if you don't have now
   linkedin_id: adityasharma101993 # Leave blank if you don't have now
   facebook_username: aditya101993  # Leave blank if you don't have now
-  twitter_username: jiakun614  # Leave blank if you don't have now
+  twitter_username:   # Leave blank if you don't have now
   email: adityasharma101993@gmail.com  # Leave blank if you don't have now
   cv: https://drive.google.com/open?id=0B4CHMidy7vsfTkZPQkdJdVdMOGc # A online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
