@@ -2,7 +2,7 @@
 
 # Website settings
 title: Aditya Sharma
-description: Aditya's blog
+description: 
 keywords: Machine Learning,Deep Learning, Computer Vision, Natural Language Processing, Artificial Neural Networks.
  # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://adityaAI.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
