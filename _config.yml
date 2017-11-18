@@ -20,7 +20,7 @@ author:  # change following line to your infomation.
   facebook_username: aditya101993  # Leave blank if you don't have now
   twitter_username:   # Leave blank if you don't have now
   email: adityasharma101993@gmail.com  # Leave blank if you don't have now
-  cv: https://drive.google.com/open?id=0B4CHMidy7vsfTkZPQkdJdVdMOGc # A online CV can be printed as PDF, leave blank if you don't have now
+  cv: https://drive.google.com/open?id=0B4CHMidy7vsfTkZPQkdJdVdMOGc # A online CV can be printed as
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: icon-apache
