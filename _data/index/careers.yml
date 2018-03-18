@@ -1,6 +1,51 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
+    detail: Indian Institute of Technology, Mandi, India
+    i18n: company_a
+  desc:
+    detail: I am currently working in the field of Medical Imaging using Deep Learning. One of my research works that have been submitted to 25th International Conference on Image Processing (ICIP 2018) is given a 3-Tesla Brain MRI reconstruct a 7-Tesla Brain MRI. The proposed algorithm outperforms some related contemporary methods regarding performance and reconstruction time. Further, we have introduced a novel deep learning architecture along with segmentation and have submitted this paper in 21st International Conference on Medical imaging computing and computer-assisted intervention (MICCAI 2018).
+    i18n: company_a_desc
+  date:
+    detail: December 2017 - October 2017
+    i18n: company_a_date
+  job:
+    detail: Research Associate
+    i18n: company_a_job
+  icon: fa-plus-square
+  
+- name:
+    detail: Speaker
+    i18n: company_a
+  desc:
+    detail:  I have given a talk at National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCPRIPG2017) on Deep Learning. Recently my team and I from IIT Mandi were called as a guest speaker at Aligarh Muslim University (AMU), India, for a five days workshop. This workshop covered a variety of topics related to Deep Learning like Basic Perceptron, Convolutional Neural Networks, Object Detection, Localisation, Siamese Network, Autoencoders, Recurrent Neural Networks, etc. along with their respective practical implementations in both keras and Tensorflow. 
+    I will be speaking about my research work at 5th World Machine and Deep Learning Congress, Dubai.   
+    
+    i18n: company_a_desc
+  date:
+    detail: November 2017 - Present
+    i18n: company_a_date
+  job:
+    detail: 
+    i18n: company_a_job
+  icon: fa-plus-square
+ 
+- name:
+    detail: DataCamp
+    i18n: company_a
+  desc:
+    detail: At DataCamp, I write articles related to Deep Learning with a combination of both theory and practical implementation.
+    i18n: company_a_desc
+  date:
+    detail: November 2017 - Present
+    i18n: company_a_date
+  job:
+    detail: Community Writer
+    i18n: company_a_job
+  icon: fa-plus-square
+  
+  
+- name:
     detail: Icecream Labs
     i18n: company_a
   desc:
