@@ -18,18 +18,13 @@
     detail: Speaker
     i18n: company_a
   desc:
-    detail:  I have given a talk at National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCPRIPG2017) on Deep Learning. Recently my team and I from IIT Mandi were called as a guest speaker at Aligarh Muslim University (AMU), India, for a five days workshop. This workshop covered a variety of topics related to Deep Learning like Basic Perceptron, Convolutional Neural Networks, Object Detection, Localisation, Siamese Network, Autoencoders, Recurrent Neural Networks, etc. along with their respective practical implementations in both keras and Tensorflow. 
-    I will be speaking about my research work at 5th World Machine and Deep Learning Congress, Dubai.  
-   date:
-    detail: December 2017 - Present
-    i18n: company_a_date
-   
+    detail:  I have given a talk at National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCPRIPG2017) on Deep Learning. Recently my team and I from IIT Mandi were called as a guest speaker at Aligarh Muslim University (AMU), India, for a five days workshop. This workshop covered a variety of topics related to Deep Learning like Basic Perceptron, Convolutional Neural Networks, Object Detection, Localisation, Siamese Network, Autoencoders, Recurrent Neural Networks, etc. along with their respective practical implementations in both keras and Tensorflow. I will be speaking about my research work at 5th World Machine and Deep Learning Congress, Dubai.  
     i18n: company_a_desc
   date:
-    detail: November 2017 - Present
+    detail: December 2017 - Present
     i18n: company_a_date
   job:
-    detail: 
+    detail: Speaker
     i18n: company_a_job
   icon: fa-plus-square
  
