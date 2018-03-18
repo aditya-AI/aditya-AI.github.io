@@ -31,7 +31,8 @@ author:  # change following line to your infomation.
   skill_icon3:
     - name: fa-linux
     - name: icon-apache
-  desc: Tech Enthusiast. Love for Artificial Intelligence. A desire to change the society by contributing to the on-going Artificial Intelligence revolution. I like the Hustle!
+  desc: Tech Enthusiast. Love for Artificial Intelligence. A desire to change the society by contributing to the on-going Artificial Intelligence revolution. 
+        I like the Hustle!
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
   name: aditya-AI.github.io
