@@ -63,10 +63,10 @@
     detail: Icecream Labs
     i18n: company_a
   desc:
-    detail: I worked on analyzing data for neural networks, classifying of catalog data using deep neural networks and worked on image processing to extract features. Frameworks used Keras and Tensorflow.
+    detail: Analyzed data for neural networks and classified catalog data using deep neural networks. Used image processing techniques to extract features. Also worked on Data Analysis using Dataframes, wrote unit tests for production ready code. One of my task was related to NLP using SVM to predict true & deceptive hotel reviews, and deployed the model using Sanic as backend.    
     i18n: company_a_desc
   date:
-    detail: August 2017 - October 2017
+    detail: August 2017 - November 2017
     i18n: company_a_date
   job:
     detail: Deep Learning Intern
