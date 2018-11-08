@@ -16,7 +16,7 @@
     i18n: company_a_job
   icon: fa-plus-square
   
-  - name:
+- name:
     detail: Indian Institute of Technology, Mandi, India
     i18n: company_a
   desc:
