@@ -2,12 +2,11 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
- - name:
+- name:
     detail: International Institute of Information Technology, Hyderabad, India
     i18n: company_a
   desc:
-    detail: I am working with Prof. C.V.Jawahar at the Centre for Visual Information Technology (CVIT) Lab on Document Image Super Resolution. Part of my work on how Document Image Super Resolution is different from Natural Image Super Resolution will be submitted to CVPR 2019. We are using Deep Learning to solve the document image super resolution problem.    
-    i18n: company_a_desc
+    detail:  I am working with Prof. C.V.Jawahar at the Centre for Visual Information Technology (CVIT) Lab on Document Image Super-Resolution. Part of my work on how Document Image Super-Resolution is different from Natural Image Super-Resolution will be submitted to CVPR 2019. We are using Deep Learning to solve the document image super-resolution problem.      i18n: company_a_desc
   date:
     detail: August 2018 - Present
     i18n: company_a_date
@@ -15,7 +14,6 @@
     detail: Research Fellow
     i18n: company_a_job
   icon: fa-plus-square
-  
   
 - name:
     detail: Speaker
