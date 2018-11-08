@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Deep Learning, Machine Learning, Python, Flask, Sanic, C, MySQL, HTML5
-percentage: 70, 50, 80, 60, 50, 85, 60, 40
+aspects: Deep Learning, Machine Learning, Python, Flask, Sanic, C, MySQL, HTML5, Keras, Tensorflow
+percentage: 70, 50, 80, 60, 50, 85, 60, 40, 80, 50
