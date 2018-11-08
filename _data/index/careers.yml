@@ -19,7 +19,8 @@
     detail: Indian Institute of Technology, Mandi, India
     i18n: company_a
   desc:
-    detail: I am currently working in the field of Medical Imaging using Deep Learning. One of my research works that have been submitted to 25th International Conference on Image Processing (ICIP 2018) is given a 3-Tesla Brain MRI reconstruct a 7-Tesla Brain MRI. The proposed algorithm outperforms some related contemporary methods regarding performance and reconstruction time. Further, we have introduced a novel deep learning architecture along with segmentation and have submitted this paper in 21st International Conference on Medical imaging computing and computer-assisted intervention (MICCAI 2018).
+    detail: Worked with Dr. Arnav Bhavsar & Dr. Aditya Nigam at the Multimedia Analytics, Networks and Systems (MANAS) Lab on applying Deep Learning to Medical Imaging & Biometrics domain. Part of my first work on generating a detailed 7-Tesla Brain MRI from a low quality 3-Tesla MRI scan is published in ICIP-2018 as an equal first author contribution. Our 7-T MRI reconstruction algorithms outperformed several benchmarks in terms of
+reconstruction performance and computational efficiency. In my second work, we proposed a novel CNN based multi-decoder framework for reconstructing 7-Tesla brain MRI from 3-Tesla brain MRI along with segmentation results is published in DLMIA-2018 workshop (held with MICCAI-2018) as an equal first author contribution.
     i18n: company_a_desc
   date:
     detail: December 2017 - July 2018
