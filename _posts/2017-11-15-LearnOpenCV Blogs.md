@@ -10,7 +10,7 @@ icon: icon-html
 ---
 
 <ol>
-<li> <a href="https://www.learnopencv.com/understanding-activation-functions-in-deep-learning/">Understanding Activation Functions in Deep Learning</a> </li>
+<li> <a href="https://www.learnopencv.com/understanding-activation-functions-in-deep-learning/" target="_blank">Understanding Activation Functions in Deep Learning</a> </li>
 
-<li><a href="https://www.learnopencv.com/understanding-autoencoders-using-tensorflow-python/">Understanding Autoencoders using Tensorflow Python</a></li>
+<li><a href="https://www.learnopencv.com/understanding-autoencoders-using-tensorflow-python/" target="_blank">Understanding Autoencoders using Tensorflow Python</a></li>
 </ol>
