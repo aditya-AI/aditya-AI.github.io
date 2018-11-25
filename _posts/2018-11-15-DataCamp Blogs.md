@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DataCamp Blogs"
-date:   2018-08-06
+date:   2018-11-15
 desc: "DataCamp Blogs"
 keywords: "deep learning, convolutional neural networks, medical imaging, autoencoders"
 categories:
