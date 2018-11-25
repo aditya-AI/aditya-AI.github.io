@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DataCamp Blogs"
-date:   2018-11-15
+date:   2018-15-11
 desc: "DataCamp Blogs"
 keywords: "deep learning, convolutional neural networks, medical imaging, autoencoders"
 categories:
@@ -24,6 +24,9 @@ icon: icon-html
 
 
 <li><a href="https://www.datacamp.com/community/tutorials/autoencoder-classifier-python" target="_blank">Autoencoder as a Classifier using Fashion-MNIST Dataset</a></li>
+
+
+<li><a href="https://www.datacamp.com/community/tutorials/machine-learning-hotel-reviews" target="_blank">Detecting True and Deceptive Hotel Reviews using Machine Learning</a></li>
 
 
 <li><a href="https://www.datacamp.com/community/tutorials/machine-learning-hotel-reviews" target="_blank">Detecting True and Deceptive Hotel Reviews using Machine Learning</a></li>
