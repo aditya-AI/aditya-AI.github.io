@@ -29,7 +29,9 @@ icon: icon-html
 <li><a href="https://www.datacamp.com/community/tutorials/machine-learning-hotel-reviews" target="_blank">Detecting True and Deceptive Hotel Reviews using Machine Learning</a></li>
 
 
-<li><a href="https://www.datacamp.com/community/tutorials/machine-learning-hotel-reviews" target="_blank">Detecting True and Deceptive Hotel Reviews using Machine Learning</a></li>
+<li><a href="https://www.datacamp.com/community/tutorials/learning-decode-reconstruction-3t-mr" target="_blank">Image Super-Resolution using Multi-Decoder Framework
+
+</a></li>
 
 <li><a href="https://www.datacamp.com/community/tutorials/machine-deep-learning" target="_blank">Differences Between Machine Learning & Deep Learning</a></li>
 
