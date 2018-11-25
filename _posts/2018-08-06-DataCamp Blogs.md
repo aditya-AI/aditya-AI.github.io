@@ -33,6 +33,4 @@ icon: icon-html
 
 <li><a href="https://www.datacamp.com/community/tutorials/machine-deep-learning" target="_blank">Differences Between Machine Learning & Deep Learning</a></li>
 
-
-
 </ol>
