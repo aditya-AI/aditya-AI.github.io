@@ -7,13 +7,6 @@ name:
     i18n: company_a
   desc:
     detail: My work predominantly revolves around adding intelligence to automotive domain. I have helped converting various projects from Proof-of-Concepts (POCs) to long-term projects, mentored and lead teams from technical front. BuiltseveralPOCsusingAIwhichareconvertedasfull-scaleprojectslike: – DriverMonitoringSystem(ADAS)ontheEdge.
-– CarParkingSolutionforMulti-StoreyParking
-– Social-DistancingandFaceMaskDetectionSolutionforCOVID-19
-• InducingPhoto-realism(urban-scene)toSyntheticDatausingGANs
-• DevelopedasolutionforGDPRcomplianceusingComputerVision&AI.
-Published a Feber Report on this topic.
-• UsingAItoimproveroadsafetybyidentifyingnear-missincidentsata
-pedestrian crossing in London (Lambeth). Published in London News. 
     i18n: company_a_desc
   date:
     detail: March 2019 - Present
