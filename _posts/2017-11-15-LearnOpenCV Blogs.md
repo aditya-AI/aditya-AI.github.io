@@ -11,6 +11,9 @@ icon: icon-html
 
 
 <ol>
+<li> <a href="https://learnopencv.com/introduction-to-intel-openvino-toolkit/" target="_blank">	
+Introduction to Intel OpenVINO Toolkit</a> </li>    
+  
 <li> <a href="https://learnopencv.com/paired-image-to-image-translation-pix2pix/" target="_blank">	
 Pix2Pix:Image-to-Image Translation in PyTorch & TensorFlow</a> </li>   
   
