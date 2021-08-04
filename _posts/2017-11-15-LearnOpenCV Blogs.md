@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "LearnOpenCV Blog Posts"
+title:  "LearnOpenCV Blogs"
 date:   2021-08-05
-desc: "LearnOpenCV Blogs"
+desc: "LearnOpenCV Blog Posts"
 keywords: "activation functions, autoencoders"
 categories:
 tags: 
