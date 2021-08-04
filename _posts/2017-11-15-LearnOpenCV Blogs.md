@@ -27,6 +27,8 @@ Deep Convolutional GAN in PyTorch and TensorFlow</a> </li>
   
 <li> <a href="https://learnopencv.com/introduction-to-generative-adversarial-networks/" target="_blank">Introduction to Generative Adversarial Networks (GANs)</a></li>  
   
+<li> <a href="https://learnopencv.com/generative-and-discriminative-models/" target="_blank">Generative and Discriminative Models</a></li>  
+  
 <li> <a href="https://learnopencv.com/variational-autoencoder-in-tensorflow/" target="_blank">Variational Autoencoder in TensorFlow</a></li>
   
 <li> <a href="https://learnopencv.com/autoencoder-in-tensorflow-2-beginners-guide/" target="_blank">Autoencoder in TensorFlow 2: Beginner’s Guide</a> </li>
