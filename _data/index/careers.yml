@@ -6,7 +6,7 @@
     i18n: company_a
   desc:
     detail: My work predominantly revolves around adding intelligence to automotive domain. I have helped converting various projects from Proof-of-Concepts (POCs) to long-term projects, mentored and lead teams from technical front.
-       - Driver Monitoring System (ADAS) on the Edge
+       - "Driver Monitoring System (ADAS) on the Edge"
        * CarParkingSolutionforMulti-StoreyParking
        * Social-DistancingandFaceMaskDetectionSolutionforCOVID-19
        * InducingPhoto-realism(urban-scene)toSyntheticDatausingGANs
