@@ -8,7 +8,7 @@
     detail: My work predominantly revolves around adding intelligence to automotive domain. I have helped converting various projects from Proof-of-Concepts (POCs) to long-term projects, mentored and lead teams from technical front.
        Built several POCs using AI which are converted as full-scale projects like Driver Monitoring System (ADAS) on the Edge, Car Parking Solution for Multi-Storey Parking,
        Social-Distancing and Face Mask Detection Solution for COVID-19. 
-       InducingPhoto-realism (urban-scene) to Synthetic DatausingGANs. Developed a solution for GDPR compliance using Computer Vision & AI.
+       InducingPhoto-realism (urban-scene) to Synthetic Data using GANs. Developed a solution for GDPR compliance using Computer Vision & AI.
        Using AI to improve road safety by identifying near-miss incidents at a pedestrian crossing in London (Lambeth). Published in London News.
     i18n: company_a_desc
   date:
