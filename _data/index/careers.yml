@@ -2,16 +2,16 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: International Institute of Information Technology, Hyderabad, India
+    detail: Robert Bosch, Bangalore, India
     i18n: company_a
   desc:
-    detail:  I am working with Prof. C.V.Jawahar at the Centre for Visual Information Technology (CVIT) Lab on Document Image Super-Resolution. Part of my work on how Document Image Super-Resolution is different from Natural Image Super-Resolution will be submitted to CVPR 2019. We are using Deep Learning to solve the document image super-resolution problem.      
+    detail: My work predominantly revolves around adding intelligence to automotive domain. I have helped converting various projects from Proof-of-Concepts (POCs) to long-term projects, mentored and lead teams from technical front.      
     i18n: company_a_desc
   date:
-    detail: August 2018 - February 2019
+    detail: March 2019 - Present
     i18n: company_a_date
   job:
-    detail: Research Fellow
+    detail: Deep Learning Specialist
     i18n: company_a_job
   icon: fa-plus-square
 
