@@ -2,6 +2,27 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
+name:
+    detail: Robert Bosch, Bangalore, India
+    i18n: company_a
+  desc:
+    detail: My work predominantly revolves around adding intelligence to automotive domain. I have helped converting various projects from Proof-of-Concepts (POCs) to long-term projects, mentored and lead teams from technical front. BuiltseveralPOCsusingAIwhichareconvertedasfull-scaleprojectslike: – DriverMonitoringSystem(ADAS)ontheEdge.
+– CarParkingSolutionforMulti-StoreyParking
+– Social-DistancingandFaceMaskDetectionSolutionforCOVID-19
+• InducingPhoto-realism(urban-scene)toSyntheticDatausingGANs
+• DevelopedasolutionforGDPRcomplianceusingComputerVision&AI.
+Published a Feber Report on this topic.
+• UsingAItoimproveroadsafetybyidentifyingnear-missincidentsata
+pedestrian crossing in London (Lambeth). Published in London News. 
+    i18n: company_a_desc
+  date:
+    detail: March 2019 - Present
+    i18n: company_a_date
+  job:
+    detail: Deep Learning Specialist
+    i18n: company_a_job
+  icon: fa-plus-square
+
 - name:
     detail: International Institute of Information Technology, Hyderabad, India
     i18n: company_a
@@ -9,7 +30,7 @@
     detail:  I am working with Prof. C.V.Jawahar at the Centre for Visual Information Technology (CVIT) Lab on Document Image Super-Resolution. Part of my work on how Document Image Super-Resolution is different from Natural Image Super-Resolution will be submitted to CVPR 2019. We are using Deep Learning to solve the document image super-resolution problem.      
     i18n: company_a_desc
   date:
-    detail: August 2018 - Present
+    detail: August 2018 - February 2019
     i18n: company_a_date
   job:
     detail: Research Fellow
